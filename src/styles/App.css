@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.todoList {
+  font-size: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 400px;
+  padding: 30px 20px;
+  background: rgb(233, 233, 233);
+  border-radius: 20px;
+}
+
+@media (max-width: 480px) {
+  .todoList {
+    font-size: 16px;
+  }
+}
+
+.taskContainer {
+  margin: 0px auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(134, 134, 134);
+}
+
+.taskContainer p {
+  margin: 10px 0px 10px 30px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/*  - - -  FORM ADD TASK - - -  */
+
+form {
+  width: 80%;
+  max-width: 400px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+form input {
+  width: 65%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+input:focus {
+  outline: none;
+}
+
+form button {
+  width: 25%;
+}
